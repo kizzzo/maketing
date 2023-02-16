@@ -1,0 +1,137 @@
+*{padding: 0;
+ margin: 0;
+ box-sizing: border-box ;
+  list-style: none;
+text-decoration: none;}
+
+body{height: 100vh;
+      width: 100vw;
+      /* background-color: ; */
+      overflow: visible;
+
+    }
+
+.star{width: 5rem;
+      background-size: ;}
+
+.header{height: 130px;
+        width: 100%;
+        border: 1px solid wheat; }
+.header img{
+        mix-blend-mode: multiply;
+        }
+
+.logo-brand{ height: 100%;
+              width: 100%;
+            display: flex;
+        align-items: center}
+
+.logo{ height: 100%;
+       display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        background-color:rgb(255, 192, 0);
+        
+        }
+
+.nav{display: flex;
+     flex-direction: row;
+     align-items: center;
+      gap: 3em;
+      padding: 1em;}
+
+.nav li a{color: black;
+          font-family: serif;
+           text-transform: capitalize;
+           font-weight: 500;
+            font-size: 90%;}
+
+.section{
+         width: 100%;
+        display: grid;
+       grid-template-columns: 5fr 5fr;
+       
+       }
+
+.section .left{height: 80vh;
+                display: grid; 
+              
+               grid-template-rows: 3fr 3fr 4fr;}
+
+.section .left .top {display: grid;
+                       justify-content:center;
+                       margin-right:6em;
+                      margin-top: 1.5em;}
+
+ .section .left .top h4{text-transform: uppercase;}
+
+ .top h1{text-transform: uppercase;}
+
+.top h2 {color:rgb(255, 192, 0);
+          font-size: 1.9em;
+        text-transform: uppercase;}
+
+.section .middle .lad{color:black;
+                      text-transform: capitalize;
+                      line-height: 1.5;
+                      background-color: rgb(226, 216, 216) font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;} 
+    
+.section .bottom {
+    height: 200px;
+  color: black;
+  text-transform: capitalize;
+  line-height: 1.9;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(177, 161, 131, 0.212);
+}
+
+.section .right{ height: 80vh;
+                  width:100%;}
+
+
+.section .bottom .button{background-color:rgb(255, 192, 0);
+                          border: 1px solid rgb(255, 192, 0);
+                          border-radius: 50% 20% / 10% 40%;
+                           color: rgb(8, 8, 8);
+                           padding: 0.5em;}
+.brand-img{
+  width: 100%;
+  height: 100%;
+}
+ 
+.library{object-fit: cover;
+  background-color: red;
+  width: 100%;
+          height:100% ;
+        }
+
+.content{
+         width: 100%;
+           display: grid;
+            grid-template-columns: 3.3fr 3.3fr 3.3fr;
+             align-items: center;
+             padding: 2em;
+             background-color: rgb(245, 208, 99);
+          
+         }
+
+.content .first{ align-items: center;
+                  width: 50%;
+                  }
+                  
+.content .second{ align-items: center;
+                  width: 50%;
+                  height: 100%;
+                  
+                  }
+                  
+
+.content .third{ align-items: center;
+                  width: 50%;
+                  
+                  }
+                  
+#icon{color:;
+        font-size: 1.5em;}
+
